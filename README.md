@@ -53,3 +53,6 @@ sanity deploy
 ```bash
 yarn dev
 ```
+## verify api data locally
+
+http://localhost:3000/api/getSocials
