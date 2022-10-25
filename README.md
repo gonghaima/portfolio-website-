@@ -56,3 +56,6 @@ yarn dev
 ## verify api data locally
 
 http://localhost:3000/api/getSocials
+
+## sanity api host
+https://portfolio-steven-gong.sanity.studio/desk
