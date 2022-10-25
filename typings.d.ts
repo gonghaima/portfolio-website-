@@ -19,7 +19,7 @@ export interface PageInfo extends SanityBody {
   backgroundInformation: string;
   email: string;
   role: string;
-  heroImage: Image;
+  image: Image;
   name: string;
   phoneNumber: string;
   profilePic: Image;
@@ -40,16 +40,16 @@ export interface Skill extends SanityBody {
 }
 
 export interface Experience extends SanityBody {
-    _type: 'experience';
-    company: string;
-    companyImage: Image;
-    dateStarted: date;
-    dateEnded:date;
-    isCurrentlyWorkingHere:boolean;
-    jobTitle: string;
-    points: string[];
-    technologies: Technology[];
-  }
+  _type: 'experience';
+  company: string;
+  companyImage: Image;
+  dateStarted: date;
+  dateEnded: date;
+  isCurrentlyWorkingHere: boolean;
+  jobTitle: string;
+  points: string[];
+  technologies: Technology[];
+}
 
 export interface Project extends SanityBody {
   title: string;
