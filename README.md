@@ -1,3 +1,9 @@
+
+## [Website link](https://portfolio-website-chi-nine.vercel.app/)
+## [Host server](https://vercel.com/gonghaima1/portfolio-website)
+## [Sanity CMS management](https://www.sanity.io/manage/personal/project/7m5k65x6)
+
+Ref:
 [website](https://portfolio-sanity-build.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
