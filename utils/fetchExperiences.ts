@@ -7,6 +7,9 @@ export const fetchExperiences = async () => {
     }/api/getExperience`
   );
   const data = await res.json();
-  const experiences: Experience[] = data.experiences;
+  const experiences: Experience[] = data.experiences.sort(
+    (a: Experience, b: Experience) =>
+      +new Date(b.dateStarted) - +new Date(a.dateStarted)
+  );
   return experiences;
 };
